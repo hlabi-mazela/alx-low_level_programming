@@ -1,13 +1,13 @@
-#include <stdio.h>
-int main() {    
+#include "holberton.h"
 
-    int number1, number2, sum;
-    
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
-
-    sum = number1 + number2;      
-    
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+/**
+ * add - Check Holberton
+ * @a: An integer a
+ * @b: An integer b
+ * Description: Function that adds two integers and returns the result
+ * Return: Result to add a and b
+ */
+int add(int a, int b)
+{
+	return (a + b);
 }
